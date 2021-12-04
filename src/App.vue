@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Btn bgColor="green" outline="false" icon=""  />
+    <Btn bgColor="blue" outline="true" icon=""  />
+    <Btn bgColor="white" outline="true" icon=""  />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Btn from "./components/Btn.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Btn,
   },
 };
 </script>
